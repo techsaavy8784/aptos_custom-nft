@@ -1,0 +1,25 @@
+[package]
+name = "dropspace"
+version = "1.0.0"
+authors = []
+
+[addresses]
+std = "0x1"
+aptos_std = "0x1"
+aptos_framework = "0x1"
+aptos_token_objects = "0x4"
+dropspace = "0x95509734a29d497b889e69b9993a44d61c6535f608b5bf021cf56ce82e29d520"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+
+[dev-dependencies]
